@@ -137,7 +137,11 @@ body{
     color: var(--second-text-color);
 }
 
-.footer-contacts-item a{
+.footer-contacts-item{
+    font-style: normal;
+}
+
+.tel, .mail{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -153,4 +157,20 @@ body{
     letter-spacing: 0.03em;
     color: var(--second-text-color);
     background: var(--active-span-color);
+}
+
+.oll-works-items h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
+.oll-works-items p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--description-text-color);
 }
