@@ -33,7 +33,7 @@ body{
     list-style: none;
 }
 
-.nav-item a{
+.menu{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -43,6 +43,24 @@ body{
 }
 
 .nav-item a:hover{
+    color: var(--active-span-color);
+}
+
+.activ_1{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--active-span-color);
+}
+
+.activ_2 {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
     color: var(--active-span-color);
 }
 
